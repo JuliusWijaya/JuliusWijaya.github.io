@@ -11,6 +11,9 @@
     <!-- Boostrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio | Julius Wijaya</title>
@@ -35,9 +38,11 @@
                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
-              
             </ul>
           </div>
         </div>
@@ -46,9 +51,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center"> 
-        <img src="img/Julius Wijaya.jpg.jpeg" alt="Julius Wijaya" width="200" class="rounded-circle img-thumbnail"/>
+        <img src="img/Julius Wijaya.jpg.jpeg" alt="Julius Wijaya" width="200" class="rounded-circle img-thumbnail" />
         <h1 class="display-4">Julius Wijaya</h1>
-        <p class="lead">Student | Programmer</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L40,74.7C80,117,160,203,240,202.7C320,203,400,117,480,112C560,107,640,181,720,213.3C800,245,880,235,960,208C1040,181,1120,139,1200,138.7C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Jumbotron -->
@@ -64,10 +69,10 @@
             </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit error molestiae fugiat rem deserunt reprehenderit facere iste animi commodi voluptatem?</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae temporibus in quam accusantium, at autem, perferendis ducimus, eum quaerat voluptas magni accusamus atque optio laudantium!</p>
             </div>
         </div>
@@ -86,7 +91,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/Projects/1.jpg.jpg" class="card-img-top" alt="project 1">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +99,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/Projects/2.jpg.jpg" class="card-img-top" alt="project 2">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -102,7 +107,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/Projects/3.jpg.jpg" class="card-img-top" alt="project 3">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -110,7 +115,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/Projects/4.jpg.jpg" class="card-img-top" alt="project 4">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +123,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/Projects/5.jpg.jpg" class="card-img-top" alt="project 5">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,6 +135,80 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,240C384,235,480,149,576,138.7C672,128,768,192,864,181.3C960,171,1056,85,1152,48C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+              <h2>Gallery</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/2.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/7.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/9.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.jpg" alt="gambar1" class="img-fluid gallery-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
 
     <!-- Contact -->
@@ -182,6 +261,36 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      })
+
+
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Student | Programmer'});
+      gsap.from('.jumbotron img', {duration: 1, rotateY: 360, opacity: 0,});
+      gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+      gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
+
+    </script>
+
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwbmvmel6DMHGd1QtoqauN2dNLXjBQt0en8Wo5IPIeNbC8BRqnAyM7r8d451E1vSDKp/exec'
